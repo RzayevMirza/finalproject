@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: catamaran;
+    src: url(../fonts/Catamaran/Catamaran-Regular.ttf);
+}
+
+@font-face {
+    font-family: montserrat;
+    src: url(../fonts/Montserrat/Montserrat-Regular.ttf);
+}
+
+.container {
+    margin: auto;
+    width: 70%;
+    padding: 20px 0px;
+}
+
+.main-div {
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.left-header {
+  width: 30%;
+}
+
+.left-ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.menu-li {
+    padding: 5px 0px;
+    transition: 1s;
+    position: relative;
+}
+
+.menu-li a {
+    margin-left: 40px;
+    text-decoration: none;
+    color: #080808;
+    font-size: 12px;
+    font-family: catamaran;
+    font-weight: 700;
+    letter-spacing: .1em;
+    padding: 40px 0px;
+    transition: 1s;
+}
+
+.center-logo a img {
+   width: 110px;
+   padding: 5px 0px;
+}
+
+.right-header {
+    padding: 5px 0px;
+}
+
+.right-header a {
+    margin-left: 30px;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: catamaran;
+    font-weight: 700;
+    letter-spacing: .1em;
+    padding: 10px 0px;
+    color: #080808;
+}
+
+.right-span1 {
+    color: #080808;
+    text-decoration: none;
+}
+
+.right-header a i {
+    font-size: 13px;
+}
+
+.right-header a span {
+    font-family: montserrat;
+    font-size: 11px;
+}
+
+.dropdown1 {
+    width: 190px;
+    height: 350px;
+    background-color: #080808;
+    position: absolute;
+    margin-top: 40px;
+    display: none;
+}
+
+.dropdown1 ul li  {
+    list-style-type: none;
+    margin-top: 5px; 
+}
+
+.dropdown1 a {
+    color:rgba(245, 245, 245, 0.705)
+}
+
+.menu-li:hover .dropdown1{
+    display: block;
+}
+
+.dropdown2 {
+    width: 67%;
+    height: 300px;
+    background-color: #080808;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: -60px;
+    display: none;
+    
+    
+}
+
+.dropdown2 ul li {
+    list-style-type: none;
+    margin-top: 5px;
+}
+.dropdown2 ul {
+    color: white;
+    position: absolute;
+    margin-top: 20px;
+   
+}
+
+.dropdown2 a {
+    color: rgba(245, 245, 245, 0.705);
+    font-family: catamaran;
+}
+
+.dropdown2-ul-2 {
+    margin-left: 300px;
+}
+
+
+.dropdown3-ul-3 {
+    margin-left: 600px
+}
+
+.dropdown4-ul-4 {
+    margin-left: 900px;
+}
+
+.span1 {
+    margin-left: 40px;
+    font-family: catamaran;
+    font-size: 14px;
+}
+
+.span2 {
+    margin-left: 40px;
+    font-family: catamaran;
+    font-size: 14px;
+}
+
+.span3 {
+    margin-left: 40px;
+    font-family: catamaran;
+    font-size: 14px;
+}
+
+.span4 {
+    margin-left: 40px;
+    font-family: catamaran;
+    font-size: 14px;
+}
+
+.menu-li:hover .dropdown2 {
+    display: block;
+    width: 1285px;
+}
+
+.dropdown3 {
+    width: 170px;
+    height: 450px;
+    background-color: #080808;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 10px;
+    display: none;
+}
+
+
+.dropdown3 ul li {
+    list-style-type: none;
+    margin-top: 5px;
+}
+
+.dropdown3 a {
+    color: rgba(245, 245, 245, 0.705);
+    font-family: catamaran
+}
+
+.menu-li:hover .dropdown3 {
+    display: block;
+}
+
+.dropdown4 {
+    width: 1290px;
+    height: 300px;
+    background-color: black;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: -220px;
+    display: none;
+}
+
+.dropdown4 ul li {
+    list-style-type: none;
+    margin-top: 5px;
+}
+
+.dropdown4 ul {
+    color: white;
+    position: absolute;
+    margin-top: 20px;
+}
+
+.dropdown4 a {
+    color: rgba(245, 245, 245, 0.705);
+    font-family: catamaran;
+}
+
+.dropdown4-ul-2 {
+    margin-left: 300px;
+}
+
+.dropdown4-ul-3 {
+    margin-left: 600px
+}
+
+.dropdown4-ul-44 {
+    margin-left: 900px;
+}
+
+.span11 {
+    font-size: 14px;
+    margin-left: 40px;
+    font-family: catamaran;
+}
+
+.span22 {
+    font-size: 14px;
+    margin-left: 38px;
+    font-family: catamaran;
+}
+
+.span33 {
+    font-size: 14px;
+    margin-left: 38px;
+    font-family: catamaran;
+}
+
+.span44 {
+    font-size: 14px;
+    margin-left: 38px;
+    font-family: catamaran;
+}
+
+.menu-li:hover .dropdown4 {
+    display: block;
+}
